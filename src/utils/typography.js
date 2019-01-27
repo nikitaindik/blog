@@ -1,17 +1,19 @@
 import Typography from 'typography'
-import Wordpress2016 from 'typography-theme-wordpress-2016'
+import lincolnTheme from 'typography-theme-lincoln'
 
-Wordpress2016.overrideThemeStyles = () => {
+lincolnTheme.overrideThemeStyles = () => {
   return {
+    a: {
+      backgroundImage: 'none',
+      color: '#c2185b',
+    },
     'a.gatsby-resp-image-link': {
       boxShadow: `none`,
     },
   }
 }
 
-delete Wordpress2016.googleFonts
-
-const typography = new Typography(Wordpress2016)
+const typography = new Typography(lincolnTheme)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {
