@@ -35,7 +35,6 @@
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.11.1",
-    "git-scripts": "^0.2.1",
     "prettier": "^1.14.2",
     "surge": "^0.20.1"
   },
@@ -47,12 +46,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
-  "git": {
-    "scripts": {
-      "pre-push": "surge --project ./public --domain nikitaindik.com"
-    }
+    "url": "git+https://ithub.com:nikitaindik/blog.git"
   },
   "scripts": {
     "dev": "gatsby develop",
