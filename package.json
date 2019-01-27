@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Nikita Indik <thevorpall@gmail.com>",
   "dependencies": {
+    "gatsby": "^2.0.76",
     "gatsby-image": "^2.0.22",
     "gatsby-plugin-feed": "^2.0.8",
     "gatsby-plugin-google-analytics": "^2.0.5",
@@ -34,7 +35,6 @@
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.11.1",
-    "gatsby": "^2.0.98",
     "prettier": "^1.14.2",
     "surge": "^0.20.1"
   },
@@ -56,8 +56,8 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build",
-    "serve": "gatsby serve",
     "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js",
-    "publish": "surge --project ./public --domain nikitaindik.com"
+    "publish": "surge --project ./public --domain nikitaindik.com",
+    "serve": "gatsby serve"
   }
 }
