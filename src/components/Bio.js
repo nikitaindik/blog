@@ -31,8 +31,8 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in
-              Limassol, Cyprus learning and building useful things.
+              Written by <strong>{author}</strong>, a software engineer who
+              lives and works in Amsterdam learning and building useful things.
             </p>
           </div>
         )
