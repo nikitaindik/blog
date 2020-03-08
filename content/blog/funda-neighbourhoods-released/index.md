@@ -32,6 +32,8 @@ This extension grabs a zipcode from the house page, then sends it to an API that
 
 I've built the "get location by zipcode" API using AWS Lambda + DynamoDB. I've googled the dataset CSV and wrote a script that uploaded it to DynamoDB, 25 rows at a time (max batch-upload limit for DynamoDB). Uploading of 460000 rows took about 3 hours. I've also tried setting up an AWS Data Pipeline, but it proved to be much slower and also surprisingly costly (when I've discovered that I paid about \$2 to upload just 2000 rows, I canceled the pipeline). The script method is absolutely free. I will write about it in a separate post.
 
+The tests are ran using Puppeteer and Jest. Normally I would pick Cypress for E2E tests, but Cypress doesn't support testing Chrome extensions, so I had to pick a more low-level tool.
+
 ### Future plans
 
 - Translate it to Dutch using Chrome i18n API
