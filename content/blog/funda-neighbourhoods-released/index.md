@@ -43,7 +43,7 @@ The tests are ran using Puppeteer and Jest. Normally I would pick Cypress for E2
 ### Install extension
 
 **Chrome**: https://chrome.google.com/webstore/detail/funda-neighbourhoods/jibdjhaojkpiagiccmolddmlhllancgj  
-**Edge**: [pending review]
+**Edge**: https://microsoftedge.microsoft.com/addons/detail/ndloapdppofpipoclcpehfijapbfbpip
 
 ### Source code
 
